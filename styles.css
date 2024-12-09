@@ -31,11 +31,11 @@ h1 {
     margin-bottom: 30px;
 }
 
-.contact ul,
-.education ul,
-.skills ul,
-.work-experience ul,
-.references ul {
+.contact ol,
+.education ol,
+.skills ol,
+.work-experience ol,
+.references ol {
     list-style-type: none;
     padding: 0;
 }
@@ -62,7 +62,7 @@ a:hover {
     margin-bottom: 10px;
 }
 
-.skills ul {
+.skills ol {
     display: flex;
     flex-wrap: wrap;
 }
@@ -89,7 +89,7 @@ a:hover {
         font-size: 1.2em;
     }
 
-    .skills ul {
+    .skills ol {
         flex-direction: column;
     }
 
